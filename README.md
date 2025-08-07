@@ -4,7 +4,7 @@
 
 - La tabla que almacena las ventas en un negocio posee los siguientes campos:
 
-<img src="./img/tabla_contexto.jpg" alt="" style="width: 80%;">
+<img src="./img/tabla_contexto.jpg" alt="" style="width: 30%;">
 
 - La primera columna indica si el campo es parte de una llave primaria, el segundo el nombre del campo, y el tercero el tipo de dato (number es un tipo numérico, mientras que varchar2 es un tipo texto y va acompañado del largo máximo del campo).
 
@@ -40,7 +40,7 @@ CREATE TABLE ventas (
     SELECT * FROM ventas
     WHERE cantarticulos > 2;
 ```
-<img src="./img/select_cantarticulos_mayor_dos.jpg" alt="" style="width: 80%;">
+<img src="./img/select_cantarticulos_mayor_dos.jpg" alt="" style="width: 50%;">
 
 
 3. Consulta registros subtotal menor a 1000:
@@ -50,7 +50,7 @@ CREATE TABLE ventas (
     FROM ventas 
     WHERE subtotal < 1000;
 ```
-<img src="./img/select_ventas_menor_mil.jpg" alt="" style="width: 80%;">
+<img src="./img/select_ventas_menor_mil.jpg" alt="" style="width: 50%;">
 
 
 4. Consulta registros vendedor "SONIA GARRIDO" y total mayor o igual a 5000:
@@ -60,7 +60,7 @@ CREATE TABLE ventas (
     WHERE vendedor = 'Sonia Garrido' AND total >= 5000 
     ORDER BY idventa DESC;
 ```
-<img src="./img/vendedor_inverso_cinco_mil.jpg" alt="" style="width: 80%;">
+<img src="./img/vendedor_inverso_cinco_mil.jpg" alt="" style="width: 50%;">
 
 
 5. Consulta registros comprador "LUCAS" o vendedor "MARIA":
@@ -71,7 +71,7 @@ CREATE TABLE ventas (
     WHERE comprador = 'Lucas Rios'
        OR vendedor = 'Maria Mora';
 ```
-<img src="./img/vendedor_maria_comprador_lucas.jpg" alt="" style="width: 80%;">
+<img src="./img/vendedor_maria_comprador_lucas.jpg" alt="" style="width: 50%;">
 
 
 6. Consulta registros con idventa 2, 5, 6 y 9:
@@ -80,7 +80,7 @@ CREATE TABLE ventas (
     SELECT * FROM ventas 
     WHERE idventa IN (2, 5, 6, 9);
 ```
-<img src="./img/registros_idventas_2569.jpg" alt="" style="width: 80%;">``
+<img src="./img/registros_idventas_2569.jpg" alt="" style="width: 50%;">```
 
 
 **<h3>📁 Estructura del Proyecto:</h3>**
