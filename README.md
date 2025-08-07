@@ -104,8 +104,3 @@ CREATE TABLE ventas (
     ├── vendedor_maria_comprador_lucas.sql
     └── vendedor_inverso_cinco_mil.sql
 ```
-
-
-**<h3>:book: Ejemplo de Salida:</h3>**
-
-<img src="./img/imagen.jpg" alt="" style="width: 80%;">
