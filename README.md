@@ -32,14 +32,14 @@ CREATE TABLE ventas (
     total INT NOT NULL
 );
 ```
-
+<img src="./img/tabla_ventas_EER_Diagram.jpg" alt="" style="width: 50%;">
 
 2. Consulta registros con cantidad de artículos mayor que 2:
 
 ```sql
     SELECT * FROM ventas
     WHERE cantarticulos > 2;
-```
+```git 
 <img src="./img/select_cantarticulos_mayor_dos.jpg" alt="" style="width: 50%;">
 
 
