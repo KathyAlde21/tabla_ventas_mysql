@@ -32,7 +32,7 @@ CREATE TABLE ventas (
     total INT NOT NULL
 );
 ```
-<img src="./img/tabla_ventas_EER_Diagram.jpg" alt="" style="width: 50%;">
+<img src="./img/tabla_ventas_EER_Diagram.jpg" alt="" style="width: 30%;">
 
 2. Consulta registros con cantidad de artículos mayor que 2:
 
